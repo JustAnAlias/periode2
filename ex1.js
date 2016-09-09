@@ -7,7 +7,7 @@ app.use('/api/calculator/:operation/:n1/:n2', function(req, res, next){
     var calculatorRequest = {
         operation: req.params.operation,
         n1: Number(req.params.n1),
-        n2: Number(req.params.n2)
+        n2: Number(req.params.n2)cd
     }
     req.calculatorRequest = calculatorRequest;
     next();
